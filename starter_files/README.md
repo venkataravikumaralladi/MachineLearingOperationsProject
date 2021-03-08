@@ -21,7 +21,7 @@ Data is constantly changing, business needs changes which requires model to be r
 Data set used for this project is classic marketing bank dataset uploaded originally in the UCI Machine Learning Repository. The dataset gives you information about a marketing campaign of a financial institution in which we will have to analyze in order to find ways to look for future strategies in order to improve future marketing campaigns for the bank. Model will predict if customer will subscribe to fixed deposit or not.
 
 ## Key Steps
-*TODO* Provide a link to a screen recording of the project in action. 
+ 
    ### Auto ML
    Constructing machine learning models is a complex and iterative process which might involve trying various algorithms, various parameter setting, feature engineering,
    performance measurement. Using AutoML, we can simply optimize preprocessing, feature engineering, model selection, hyperparameter tuning, and model ensembling to
@@ -73,9 +73,14 @@ Data set used for this project is classic marketing bank dataset uploaded origin
    ![Pipe line endpoint](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/PipelineEndpointCreated.png)
    
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+
     Screen cast shows how we can get best model using AutoML, Working deployed ML model endpoint, deployed pipeline and succeful API requests to the end point 
     with a JSON payload. Screen cast link: https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/MLOPsProjScreenCast.mp4
     
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+  
+  Explored the bank marketing data set. Want to make data set balanced before training. In this project I explored Azure Container Instance, I want to
+  automate the deployment to Azure Databricks and Azure Kubernetes Service using Azure Machine Learning services.
+  
+  I want to try version-controlling code, by gradually moving code experiments in a notebook to a module that is imported at the beginning of each file.
+  Using auto-reload plugins, we can make sure that these modules get automatically reloaded whenever we change them, without needing to restart your kernel.

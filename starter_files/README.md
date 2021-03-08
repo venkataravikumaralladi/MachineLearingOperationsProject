@@ -7,7 +7,17 @@ This project is part of the Udacity Azure ML developer Nanodegree program. In th
 
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+![Machine Learning Dev Ops](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/Summary.png)
+
+ML consits of code + data which is different from general software project which consists only code. Building reproducible pipelines, configuring pipelines, configuring continious integration, continious deployment, consuming end point are all part of ML operations. Constant evaluation and monitoring with robust deployment is necessary for secured and reliable model.
+
+Some of the tools we use for MLOps are Azure Ml Studio, Azure Python SDK, Jupyter note book, Swagger, Apache bench mark and terminal window. 
+
+Pipeline automation is corepillar of MLOps. Pipelines help us in automating from creating ML pipelines, publishing pipelines so that we can use the pipelines in CI/CD process.
+Published pipelines can be consumed by pipeline endpoint.
+
+Data is constantly changing, business needs changes which requires model to be retrained. This can be achieved effectively by creating Azure pipelines. Azure pipelines can be deployed in CI/CD enviroment which can be trained and new model can be deployed 
+
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 

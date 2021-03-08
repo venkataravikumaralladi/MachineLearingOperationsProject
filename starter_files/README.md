@@ -7,11 +7,11 @@ Table of contents
 =================
 
 <!--ts-->
-  * [Architectural Diagram](##Architectural Diagram)
-  * [Dataset](##Dataset)
-  * [Key steps](##Key Steps)
-  * [Screen recording](##Screen Recording)
-  * [Standout suggestions](##Standout Suggestions)
+  * [Architectural Diagram](## Architectural Diagram)
+  * [Dataset](## Dataset)
+  * [Key steps](## Key Steps)
+  * [Screen recording]## Screen Recording)
+  * [Standout suggestions](## Standout Suggestions)
 <!--te-->
 
 ## Architectural Diagram

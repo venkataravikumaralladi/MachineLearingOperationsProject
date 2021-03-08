@@ -50,6 +50,8 @@ Data set used for this project is classic marketing bank dataset uploaded origin
 
    Scirpt `serve.py` acts as a python HTTP server that will serve the contents of the current directory. This script will listen on port 8000. This will allow
    swagger service to interact with this and produce beautiful documentation.
+   
+   Service is consumed by running script `endpoint.py`.
    ![Swagger web interface](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerSvcWeb.png)
    ![Swagger post info](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerSvcPutInfo.png)
  
@@ -72,6 +74,8 @@ Data set used for this project is classic marketing bank dataset uploaded origin
    
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-
+    Screen cast shows how we can get best model using AutoML, Working deployed ML model endpoint, deployed pipeline and succeful API requests to the end point 
+    with a JSON payload. Screen cast link: https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/MLOPsProjScreenCast.mp4
+    
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.

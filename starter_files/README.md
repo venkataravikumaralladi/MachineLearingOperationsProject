@@ -34,10 +34,24 @@ Data set used for this project is classic marketing bank dataset uploaded origin
    ### Deployment
    Deployment is about delivering a trained model in to production so that it can be consumed by other. Configuring deployment setting means making choices on deployment
    configuration like cluster settings, authentication etc to name a few. Having good grasp of deployed envirnoment helps in selecting right deploy configuration settings. 
-   Certain deployed configuration setting can be changed dynmically at run time like enabling application insights. Certain deployed configuration settings like
-   security options can not be changed dynamically at run time. After successful deployment, deployed model is shown in end point section as shown in below snap shot.
+   Certain deployed configuration setting can be changed dynmically at run time like enabling application insights by running `logs.py`.
+   Certain deployed configuration settings like security options can not be changed dynamically at run time.
+   After successful deployment, deployed model is shown in end point section as shown in below snap shot.
    ![End point snahpshot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/ConsumedEndpointOutput.png)
     
+   ### Consuming deployed service
+   Endpoints are excellent example of hot we consume deployed models. The end points allows other services to interact with deployed models.
+   End points can be RESTFul API's (HTTP end point).
+   Swagger is a tool that eases the documentation effort. Swager guides developers by specifying what inputs are accepted , what output is produced. 
+   Azure provides a "swagger.json" that is used to creates a website that documents the HTTP end point for a deployed model.
+
+   We use docker to install swagger in our image. This is done by running script `bash swagger.sh`. This script uses docker to download swagger-ui and
+   start a local webserver "swagger-ui". swagger-ui is a tool that understands the swagger.json file format and visualizes the API definion contained in "swagger.json"
+
+   Scirpt `serve.py` acts as a python HTTP server that will serve the contents of the current directory. This script will listen on port 8000. This will allow
+   swagger service to interact with this and produce beautiful documentation.
+   ![Swagger web interface](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerSvcWeb.png)
+   ![Swagger post info](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerSvcPutInfo.png)
  
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:

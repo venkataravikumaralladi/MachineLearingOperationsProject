@@ -73,9 +73,9 @@ Data set used for this project is classic marketing bank dataset uploaded origin
    ![Pipe line endpoint](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/PipelineEndpointCreated.png)
    
 ## Screen Recording
-
-    Screen cast shows how we can get best model using AutoML, Working deployed ML model endpoint, deployed pipeline and succeful API requests to the end point 
-    with a JSON payload. Screen cast link: https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/MLOPsProjScreenCast.mp4
+   
+   Screen cast shows how we can get best model using AutoML, Working deployed ML model endpoint, deployed pipeline and succeful API requests to the end point 
+   with a JSON payload. Screen cast link: https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/MLOPsProjScreenCast.mp4
     
 ## Standout Suggestions
   

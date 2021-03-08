@@ -21,12 +21,8 @@ Data is constantly changing, business needs changes which requires model to be r
 Data set used for this project is classic marketing bank dataset uploaded originally in the UCI Machine Learning Repository. The dataset gives you information about a marketing campaign of a financial institution in which we will have to analyze in order to find ways to look for future strategies in order to improve future marketing campaigns for the bank. Model will predict if customer will subscribe to fixed deposit or not.
 
 ## Key Steps
-
-  #### AutoML 
-           AFSD
-           
-
-
+*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+ 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 

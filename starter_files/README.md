@@ -30,6 +30,13 @@ Data set used for this project is classic marketing bank dataset uploaded origin
    or regression or time series analysis), how long to be run, to name a few.Auto ML will try various models and we can select best model for deployment.
    As we can see in below snapshot various models are evaluated and performance measure of model is shown. We can select best model for deployment.
    ![AutoML Run Completion snapshot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/BestAutoMLmodel.png)
+   
+   ### Deployment
+   Deployment is about delivering a trained model in to production so that it can be consumed by other. Configuring deployment setting means making choices on deployment
+   configuration like cluster settings, authentication etc to name a few. Having good grasp of deployed envirnoment helps in selecting right deploy configuration settings. 
+   Certain deployed configuration setting can be changed dynmically at run time like enabling application insights. Certain deployed configuration settings like
+   security options can not be changed dynamically at run time. After successful deployment, deployed model is shown in end point section as shown in below snap shot.
+   ![End point snahpshot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/ConsumedEndpointOutput.png)
     
  
 ## Screen Recording

@@ -21,15 +21,15 @@ Data is constantly changing, business needs changes which requires model to be r
 Data set used for this project is classic marketing bank dataset uploaded originally in the UCI Machine Learning Repository. The dataset gives you information about a marketing campaign of a financial institution in which we will have to analyze in order to find ways to look for future strategies in order to improve future marketing campaigns for the bank. Model will predict if customer will subscribe to fixed deposit or not.
 
 ## Key Steps
-*TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
+
   *AutoML*: 
            Constructing machine learning models is a complex and iterative process which might involve trying various algorithms, various parameter setting, feature engineering,
            performance measurement. Using AutoML, we can simply optimize preprocessing, feature engineering, model selection, hyperparameter tuning, and model ensembling to
            name a few in all in one simple abstract pipeline.
            To create new Automated ML run we have to fill following forms to specify data set to be used for model, training cluster, and select task (i.e., classification,
            or regression or time series analysis), how long to be run, to name a few.Auto ML will try various models and we can select best model for deployment.
-           After AutoML completes as shown below snap shots best model is selected and deployed.
-           ![Auto ML Complete snapshot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/AutoMLComplete.png)
+           As we can see in below snapshot various models are evaluated and performance measure of model is shown. We can select best model for deployment.
+           
            ![Best model snapshot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/BestAutoMLmodel.png)
 
 

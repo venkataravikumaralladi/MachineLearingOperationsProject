@@ -4,12 +4,12 @@ Table of contents
 =================
 
 <!--ts-->
-* [Summary](## Summary)
-* [Architectural Diagram](## Architectural Diagram)
-* [Dataset](## Dataset)
-* [Key steps](## Key Steps)
-* [Screen recording]## Screen Recording)
-* [Standout suggestions](## Standout Suggestions)
+* [Summary](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/README.md#summaryy)
+* [Architectural Diagram](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/tree/master/starter_files#architectural-diagram)
+* [Dataset](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/tree/master/starter_files#dataset)
+* [Key steps](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/tree/master/starter_files#key-steps)
+* [Screen recording](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/tree/master/starter_files#screen-recording)
+* [Standout suggestions](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/tree/master/starter_files#standout-suggestions)
 <!--te-->
 
 

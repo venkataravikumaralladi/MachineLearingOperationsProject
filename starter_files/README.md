@@ -1,8 +1,4 @@
 
-# Machine Learning Operations using Azure
-
-This project is part of the Udacity Azure ML developer Nanodegree program. In this project, we will use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. ML model using AutoML in Azure. We will also create, publish, and consume a pipeline. This project provides hands on experience on automation. Automation is corepillar of dev ops, applicable to ML operations, i.e., we will automate from creating ML pipeline, publishing a pipeline so that external services can interact with them, and consume pipeline end point.
-
 Table of contents
 =================
 
@@ -13,6 +9,10 @@ Table of contents
   * [Screen recording]## Screen Recording)
   * [Standout suggestions](## Standout Suggestions)
 <!--te-->
+
+# Machine Learning Operations using Azure
+
+This project is part of the Udacity Azure ML developer Nanodegree program. In this project, we will use Azure to configure a cloud-based machine learning production model, deploy it, and consume it. ML model using AutoML in Azure. We will also create, publish, and consume a pipeline. This project provides hands on experience on automation. Automation is corepillar of dev ops, applicable to ML operations, i.e., we will automate from creating ML pipeline, publishing a pipeline so that external services can interact with them, and consume pipeline end point.
 
 ## Architectural Diagram
 ![Machine Learning Dev Ops](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/Summary.png)

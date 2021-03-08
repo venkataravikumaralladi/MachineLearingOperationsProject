@@ -1,5 +1,3 @@
-*NOTE:* This file is a template that you can use to create the README for your project. The *TODO* comments below will highlight the information you should be sure to include.
-
 
 # Machine Learning Operations using Azure
 
@@ -18,6 +16,9 @@ Published pipelines can be consumed by pipeline endpoint.
 
 Data is constantly changing, business needs changes which requires model to be retrained. This can be achieved effectively by creating Azure pipelines. Azure pipelines can be deployed in CI/CD enviroment which can be trained and new model can be deployed 
 
+## Dataset
+![UCI Bank Marketing Azure Snapshot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/RegisteredDataSetsSnapshot.png)
+Data set used for this project is classic marketing bank dataset uploaded originally in the UCI Machine Learning Repository. The dataset gives you information about a marketing campaign of a financial institution in which we will have to analyze in order to find ways to look for future strategies in order to improve future marketing campaigns for the bank. Model will predict if customer will subscribe to fixed deposit or not.
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 

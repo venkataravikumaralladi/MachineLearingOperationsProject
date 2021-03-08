@@ -53,6 +53,23 @@ Data set used for this project is classic marketing bank dataset uploaded origin
    ![Swagger web interface](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerSvcWeb.png)
    ![Swagger post info](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerSvcPutInfo.png)
  
+   ### Benchmark
+   Bench mark is an accpetable performance measure which is required for base lining performance. Bench marking HTTP API's is used to find the average response time
+   for a  deployed model.  There are other important metrics like requests per second, response time to name a few.
+   Apache bench mark is an easy and popular tool for bech marking HTTP services. It is avilable as command line tool as "ab".
+   Security keys input to be provided for `ab` command which is written in script `benchmark.sh`.
+   ![Apache Benchmark](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/ApacheBenchmarkOutput.png)
+   
+   ### Pipe line automation
+   Data is constantly changing, business needs changes which requires model to be retrained. This can be achieved effectively by creating Azure pipelines.
+   Azure pipelines can be deployed in CI/CD enviroment which can be trained and new model can be deployed. This is implemented in  
+   `aml-pipelines-with-automated-machine-learning-step.ipynb`.
+   
+   Pipeline automation is corepillar of MLOps. Pipelines help us in automating from creating ML pipelines,publishing pipelines so that we can use
+   the pipelines in CI/CD process. Published pipelines can be consumed by pipeline endpoint. Below are snap shots are published pipeline.
+   ![Pipe line creatioin snaphot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/PipelineCreatedSections.png)
+   ![Pipe line endpoint](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/PipelineEndpointCreated.png)
+   
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 

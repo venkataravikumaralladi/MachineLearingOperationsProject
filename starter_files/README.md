@@ -73,8 +73,8 @@ Following points can be considered for futher improvement in project
    swagger service to interact with this and produce beautiful documentation.
    
    Service is consumed by running script `endpoint.py`.
-   ![Swagger web interface](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerSvcWeb.png)
-   ![Swagger post info](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerSvcPutInfo.png)
+   ![Swagger web interface](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerSvcPutInfo.png)
+   ![Swagger post info](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerResponsesForModel.png)
  
    ### Benchmark
    Bench mark is an accpetable performance measure which is required for base lining performance. Bench marking HTTP API's is used to find the average response time

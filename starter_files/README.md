@@ -56,6 +56,7 @@ Following points can be considered for futher improvement in project
    configuration like cluster settings, authentication etc to name a few. Having good grasp of deployed envirnoment helps in selecting right deploy configuration settings. 
    Certain deployed configuration setting can be changed dynmically at run time like enabling application insights by running `logs.py`.
    Certain deployed configuration settings like security options can not be changed dynamically at run time.
+   ![Application insights enabled](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/AppInsightsEnabledDynamicallyAndModelDeployView.png)
    After successful deployment, deployed model is shown in end point section as shown in below snap shot.
    ![End point snahpshot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/ConsumedEndpointOutput.png)
     

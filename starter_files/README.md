@@ -33,6 +33,12 @@ Data is constantly changing, business needs changes which requires model to be r
 ![UCI Bank Marketing Azure Snapshot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/RegisteredDataSetsSnapshot.png)
 Data set used for this project is classic marketing bank dataset uploaded originally in the UCI Machine Learning Repository. The dataset gives you information about a marketing campaign of a financial institution in which we will have to analyze in order to find ways to look for future strategies in order to improve future marketing campaigns for the bank. Model will predict if customer will subscribe to fixed deposit or not.
 
+## A short description of how to improve project in future
+Following points can be considered for futher improvement in project
+   i. Bank data set is not balanced. Analyze the model by incooperating ideas like under sampling the high frequent data and over sampling low frequent data.
+   ii. Use right evaluation metric like F1 score or precision or senstivity instead of accuracy and re-run the model.
+   iii. Test deployment using AKS service.
+
 ## Key Steps
  
    ### Auto ML

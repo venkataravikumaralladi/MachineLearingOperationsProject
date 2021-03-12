@@ -93,10 +93,8 @@ Following points can be considered for futher improvement in project
    ![Pipe line widget output](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/CreatingAndPublishingPipelineWidget.png)
    ![Pipe line creatioin snaphot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/PipelineCreatedSections.png)
    ![Pipe line endpoint](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/PipelineCreatedWithDataSetAndAutomML.png)
-   
-   Following is snap hsot of the Published Pipeline overview, showing a REST endpoint and a status of ACTIVE
-   ![Published pipe line] (https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/publishedPipeline.png)
-   
+   ![Published line endpoint](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/publishedPipeline.png)
+    
    
 ## Screen Recording
    

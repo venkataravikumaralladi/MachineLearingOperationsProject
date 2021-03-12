@@ -56,9 +56,8 @@ Following points can be considered for futher improvement in project
    configuration like cluster settings, authentication etc to name a few. Having good grasp of deployed envirnoment helps in selecting right deploy configuration settings. 
    Certain deployed configuration setting can be changed dynmically at run time like enabling application insights by running `logs.py`.
    Certain deployed configuration settings like security options can not be changed dynamically at run time.
-   After successful deployment, deployed model is shown in end point section as shown in below snap shot.
-   ![End point snahpshot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/ConsumedEndpointOutput.png)
-    
+   ![Application insights enabled](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/AppInsightsEnabledDynamicallyAndModelDeployView.png)
+       
    ### Consuming deployed service
    Endpoints are excellent example of hot we consume deployed models. The end points allows other services to interact with deployed models.
    End points can be RESTFul API's (HTTP end point).
@@ -69,11 +68,13 @@ Following points can be considered for futher improvement in project
    start a local webserver "swagger-ui". swagger-ui is a tool that understands the swagger.json file format and visualizes the API definion contained in "swagger.json"
 
    Scirpt `serve.py` acts as a python HTTP server that will serve the contents of the current directory. This script will listen on port 8000. This will allow
-   swagger service to interact with this and produce beautiful documentation.
+   swagger service to interact with this and produce beautiful documentation as shown in below snap shots
    
-   Service is consumed by running script `endpoint.py`.
-   ![Swagger web interface](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerSvcWeb.png)
-   ![Swagger post info](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerSvcPutInfo.png)
+   ![Swagger web interface](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerModelInputPostParams.png)
+   ![Swagger post info](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/SwaggerResponsesForModel.png)
+   
+   After successful deployment and with the help of documentation provided by swagger deployed model can be consumed by running script `endpoint.py`. as shown in below snap shot.
+   ![End point snahpshot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/ConsumedEndpointOutput.png)
  
    ### Benchmark
    Bench mark is an accpetable performance measure which is required for base lining performance. Bench marking HTTP API's is used to find the average response time
@@ -89,8 +90,12 @@ Following points can be considered for futher improvement in project
    
    Pipeline automation is corepillar of MLOps. Pipelines help us in automating from creating ML pipelines,publishing pipelines so that we can use
    the pipelines in CI/CD process. Published pipelines can be consumed by pipeline endpoint. Below are snap shots are published pipeline.
+   ![Pipe line widget output](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/CreatingAndPublishingPipelineWidget.png)
    ![Pipe line creatioin snaphot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/PipelineCreatedSections.png)
-   ![Pipe line endpoint](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/PipelineEndpointCreated.png)
+   ![Pipe line endpoint](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/PipelineCreatedWithDataSetAndAutomML.png)
+   
+   Following is snap hsot of the Published Pipeline overview, showing a REST endpoint and a status of ACTIVE
+   
    
 ## Screen Recording
    

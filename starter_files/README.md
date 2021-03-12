@@ -90,8 +90,12 @@ Following points can be considered for futher improvement in project
    
    Pipeline automation is corepillar of MLOps. Pipelines help us in automating from creating ML pipelines,publishing pipelines so that we can use
    the pipelines in CI/CD process. Published pipelines can be consumed by pipeline endpoint. Below are snap shots are published pipeline.
+   ![Pipe line widget output](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/CreatingAndPublishingPipelineWidget.png)
    ![Pipe line creatioin snaphot](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/PipelineCreatedSections.png)
    ![Pipe line endpoint](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/PipelineCreatedWithDataSetAndAutomML.png)
+   
+   Following is snap hsot of the Published Pipeline overview, showing a REST endpoint and a status of ACTIVE
+   
    
 ## Screen Recording
    

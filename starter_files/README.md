@@ -7,6 +7,7 @@ Table of contents
 * [Summary](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/README.md#summaryy)
 * [Architectural Diagram](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/tree/master/starter_files#architectural-diagram)
 * [Dataset](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/tree/master/starter_files#dataset)
+* [Project improvements in future](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/blob/master/starter_files/README.md#a-short-description-of-how-to-improve-project-in-future)
 * [Key steps](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/tree/master/starter_files#key-steps)
 * [Screen recording](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/tree/master/starter_files#screen-recording)
 * [Standout suggestions](https://github.com/venkataravikumaralladi/MachineLearingOperationsProject/tree/master/starter_files#standout-suggestions)
